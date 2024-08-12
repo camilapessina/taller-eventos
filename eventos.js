@@ -9,7 +9,7 @@ function ClickEnDiv() {
 
 function clickEnBoton(evento) {
     evento.stopPropagation(); 
-    alert('Hola!');
+    alert('Hola!!');
 }
 
 miDiv.addEventListener('click', ClickEnDiv);
